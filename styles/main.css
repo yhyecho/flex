@@ -16,7 +16,7 @@ body {
 
 .app-header {
   background-color: #00BCD4;
-  height: 80px;
+  height: 50px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   border-bottom: 1px solid #fff59d; }
@@ -31,7 +31,7 @@ body {
   padding: 16px; }
 
 .app-footer {
-  height: 80px;
+  height: 60px;
   background-color: #00BCD4;
   -ms-flex-negative: 0;
       flex-shrink: 0;
