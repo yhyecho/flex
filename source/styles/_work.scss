@@ -1,0 +1,19 @@
+.course {
+  margin: 0 auto;
+  padding: 16px;
+  .card {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0;
+    width: 100%;
+    img {
+      max-width: 100%;
+      margin: 0 auto;
+      border: 1px solid #eee;
+    }
+    .text {
+      margin: 15px 0px;
+    }
+  }
+}

@@ -82,7 +82,9 @@ a {
 .sidebar {
   display: none;
   width: 250px;
-  background-color: #00BCD4; }
+  background-color: #00BCD4;
+  -ms-flex-negative: 0;
+      flex-shrink: 0; }
   .sidebar a.active {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.2); }
@@ -120,3 +122,19 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; } }
+
+.course {
+  margin: 0 auto;
+  padding: 16px; }
+  .course .card {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0;
+    width: 100%; }
+    .course .card img {
+      max-width: 100%;
+      margin: 0 auto;
+      border: 1px solid #eee; }
+    .course .card .text {
+      margin: 15px 0px; }
