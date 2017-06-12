@@ -7,6 +7,7 @@
     padding: 10px;
     margin: 20px 0;
     width: 100%;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
     img {
       max-width: 100%;
       margin: 0 auto;
@@ -14,6 +15,29 @@
     }
     .text {
       margin: 15px 0px;
+    }
+    &:hover {
+      cursor: pointer;
+      box-shadow: 0 1px 12px rgba(0, 0, 0, 0.12), 0 1px 8px rgba(0, 0, 0, 0.24);
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .course {
+    display: flex;
+    flex-wrap: wrap;
+    .card {
+      margin: 20px;
+      width: calc(50% - 40px);
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .course {
+    .card {
+      width: calc(33.33333% - 60px);
     }
   }
 }
